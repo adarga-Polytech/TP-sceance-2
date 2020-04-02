@@ -1,0 +1,11 @@
+main.c:329:6:SystemClock_Config	80	static
+main.c:112:5:main	80	static
+main.c:489:6:HAL_TIM_PeriodElapsedCallback	0	static
+main.c:507:6:Set_Patte	0	static
+main.c:511:7:Reset_Patte	0	static
+main.c:516:7:set_Bus	0	static
+main.c:520:7:reset_Bus	0	static
+main.c:525:7:Delayus	16	static
+main.c:532:6:Affich_char_Haut	32	static
+main.c:598:6:HAL_GPIO_EXTI_Callback	0	static
+main.c:621:6:_Error_Handler	0	static
