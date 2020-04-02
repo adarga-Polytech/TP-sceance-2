@@ -112,7 +112,7 @@ void delayms(volatile unsigned int temps);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-// ajout commentaire
+
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
@@ -164,7 +164,7 @@ int main(void)
 
 		  FlagFourche = 0;
 		  if (state == 1 && test == 1 && maxValue == 0){
-			  //set_Bus(GPIOB,lettre1[NumCol]);
+			  set_Bus(GPIOB,lettre1[NumCol]);
 			  NumCol ++;
 
 				  if(NumCol == 6) {
